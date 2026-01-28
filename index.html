@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">TailwindCSS</h1>
+            <ul class="flex space-x-6 font-medium">
+                <li><a href="#" class="hover:text-blue-500 transition">Beranda</a></li>
+                <li><a href="#" class="hover:text-blue-500 transition">Layanan</a></li>
+                <li><a href="#" class="hover:text-blue-500 transition">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container mx-auto mt-16 px-4 text-center">
+        <h2 class="text-4xl md:text-6xl font-extrabold mb-4">
+            Bangun Website Lebih <span class="text-blue-600">Cepat</span>
+        </h2>
+        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            Gunakan Tailwind CSS untuk membuat tampilan yang modern, responsif, dan bersih tanpa harus pusing dengan file CSS yang menumpuk.
+        </p>
+    </header>
+
+    <section class="container mx-auto my-24 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-blue-600 text-4xl mb-4">⚡</div>
+                <h3 class="text-xl font-bold mb-2">Sangat Cepat</h3>
+                <p class="text-gray-500 text-sm">Proses pengembangan jadi lebih singkat dengan utility classes.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-blue-600 text-4xl mb-4">📱</div>
+                <h3 class="text-xl font-bold mb-2">Responsif</h3>
+                <p class="text-gray-500 text-sm">Tampilan otomatis menyesuaikan layar HP, Tablet, maupun Desktop.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-blue-600 text-4xl mb-4">🎨</div>
+                <h3 class="text-xl font-bold mb-2">Mudah Kustom</h3>
+                <p class="text-gray-500 text-sm">Ubah warna dan ukuran hanya dengan mengganti nama kelas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto text-center">
+            <p class="opacity-70">&copy; 2024 BrandKita. Dibuat dengan Tailwind CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
